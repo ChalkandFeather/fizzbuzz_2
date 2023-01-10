@@ -6,6 +6,6 @@ def fizzbuzz_2(num)
   elsif num % 3 == 0 
     return "Fizz"
   else 
-    return num
+    return "#{num}"
   end
 end
